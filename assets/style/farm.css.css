@@ -1,0 +1,229 @@
+.btn_change_bg{
+    outline: none;
+    border: none;
+    background-color: aqua;
+    cursor: pointer;
+    padding: 15px;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+#background_image{
+    background-color: aqua;
+}
+#background_image img{
+    width: 100%;
+    height: 716.15px; 
+}
+#container
+{
+    position: relative;
+}
+#changeButton{
+    left: 133px;   top: 680px;
+    width: 120px; height: 40px;
+    position: absolute; 
+    background-color: aqua;
+    color:red;
+    border: none;
+    cursor: pointer;  
+    display: inline;  
+}
+#playButton {
+    left: 10px;   top: 680px;
+    width: 120px; height: 40px;
+    position: absolute; 
+    background-color:aqua;
+    color: red;
+    display: inline;
+    border: none;
+    cursor: pointer;  
+}
+#bg1.btn_change_bg {
+    left: 255px;   top: 680px;
+    width: 120px; height: 40px;
+    position: absolute; 
+    background-color: aqua;
+    color:red;
+}
+#bg2.btn_change_bg {
+    left: 378px;   top: 680px;
+    width: 120px; height: 40px;
+    position: absolute; 
+    background-color: aqua;
+    color:red;
+}
+#dog{
+    right: -50px;   top: 530px;
+    width: 100px; height: 100px;
+    position: absolute;
+    animation-name:dog;
+    animation: dog 10s infinite 0s none ease-in;
+} 
+
+@-webkit-keyframes dog{
+    0%   {right: 0px;     top: 540px; width: 100px; height: 100px;     transform: scaleX(-1); }
+    5%   {right: 20px;    top: 550px; width: 100px; height: 100px;     transform: rotateZ(-20deg) scaleX(-1); }
+    10%  {right: 90px;    top: 530px; width: 100px; height: 100px;     transform: rotateZ(-20deg) scaleX(-1); }
+    15%  {right: 150px;   top: 540px; width: 100px; height: 100px;     transform: rotateZ(-20deg) scaleX(-1); }
+    20%  {right: 250px;   top: 540px; width: 100px; height: 100px;     transform: scaleX(-1); }
+    25%  {right: 350px;   top: 540px; width: 100px; height: 100px;     transform: scaleX(-1); }
+    30%  {right: 460px;   top: 500px; width: 100px; height: 100px;     transform: scaleX(-1); }
+    35%  {right: 570px;   top: 500px; width: 100px; height: 100px;     transform: scaleX(-1); }
+    40%  {right: 700px;   top: 420px; width: 100px; height: 100px;     transform: scaleX(-1); }
+    45%  {right: 890px;   top: 310px; width: 100px; height: 100px;     transform: scaleX(-1); }
+    50%  {right: 900px;   top: 310px; width: 100px; height: 100px;     transform: scaleX(1);}
+    55%  {right: 890px;   top: 310px; width: 100px; height: 100px;    }
+    60%  {right: 700px;   top: 310px; width: 100px; height: 100px;    }
+    65%  {right: 570px;   top: 310px; width: 100px; height: 100px;    }
+    70%  {right: 460px;   top: 310px; width: 100px; height: 100px;    }
+    75%  {right: 350px;   top: 310px; width: 100px; height: 100px;    }
+    80%  {right: 250px;   top: 310px; width: 100px; height: 100px;    }
+    85%  {right: 150px;   top: 310px; width: 100px; height: 100px; }
+    90%  {right: 90px;    top: 310px; width: 100px; height: 100px; }
+    95%  {right: 20px;    top: 310px; width: 100px; height: 100px; } 
+    97%  {right: 0px;     top: 310px; width: 100px; height: 100px;    } 
+    98%  {right: -10px;   top: 310px; width: 100px; height: 100px;    } 
+    100% {right: -20px;   top: 310px; width: 100px; height: 100px;    } 
+}
+#duck{
+    right: -50px;   top: 450px;
+    width: 100px; height: 100px;
+    position: absolute;
+    animation-name:duck;
+    animation: duck 12s infinite 0s none ease-in;
+} 
+@-webkit-keyframes duck {
+    0%   {right: 0px;     top: 310px; width: 100px; height: 100px;     transform: scaleX(-1); }
+    5%   {right: 20px;    top: 310px; width: 100px; height: 100px;     transform: rotateZ(-20deg) scaleX(-1); }
+    10%  {right: 90px;    top: 310px; width: 100px; height: 100px;     transform: rotateZ(-20deg) scaleX(-1); }
+    15%  {right: 150px;   top: 310px; width: 100px; height: 100px;     transform: rotateZ(-20deg) scaleX(-1); }
+    20%  {right: 250px;   top: 310px; width: 100px; height: 100px;     transform: scaleX(-1); }
+    25%  {right: 350px;   top: 310px; width: 100px; height: 100px;     transform: scaleX(-1); }
+    30%  {right: 460px;   top: 310px; width: 100px; height: 100px;     transform: scaleX(-1); }
+    35%  {right: 570px;   top: 310px; width: 100px; height: 100px;     transform: scaleX(-1); }
+    40%  {right: 700px;   top: 310px; width: 100px; height: 100px;     transform: scaleX(-1); }
+    45%  {right: 890px;   top: 310px; width: 100px; height: 100px;     transform: scaleX(-1); }
+    50%  {right: 900px;   top: 310px; width: 100px; height: 100px;     transform: scaleX(1);}
+    55%  {right: 890px;   top: 310px; width: 100px; height: 100px;    }
+    60%  {right: 700px;   top: 310px; width: 100px; height: 100px;    }
+    65%  {right: 570px;   top: 310px; width: 100px; height: 100px;    }
+    70%  {right: 460px;   top: 310px; width: 100px; height: 100px;    }
+    75%  {right: 350px;   top: 310px; width: 100px; height: 100px;    }
+    80%  {right: 250px;   top: 310px; width: 100px; height: 100px;    }
+    85%  {right: 150px;   top: 310px; width: 100px; height: 100px;    transform: rotateZ(20deg);}
+    90%  {right: 90px;    top: 310px; width: 100px; height: 100px;    transform: rotateZ(20deg);}
+    95%  {right: 20px;    top: 310px; width: 100px; height: 100px;    transform: rotateZ(20deg);} 
+    97%  {right: 0px;     top: 310px; width: 100px; height: 100px;    } 
+    98%  {right: -10px;   top: 310px; width: 100px; height: 100px;    } 
+    100% {right: -20px;   top: 310px; width: 100px; height: 100px;    } 
+}
+#butterfly{
+    left: 1px;   top: 50px;
+    width: 100px; height: 100px;
+    position: absolute;
+    animation-name: butterfly;
+    animation:  butterfly 10s infinite 0s none ;
+}
+@-webkit-keyframes butterfly {
+    0%   {left: -40px;    top: 670px;  width: 50px; height: 50px;} 
+    5%   {left: -20px;    top: 640px;   width: 50px; height: 50px;}
+    8%   {left: 0px;      top: 620px;   width: 50px; height: 50px;}
+    10%  {left: 40px;     top: 600px;   width: 50px; height: 50px;}
+    13%  {left: 100px;    top: 570px;   width: 50px; height: 50px;}
+    15%  {left: 200px;    top: 670px;  width: 50px; height: 50px;}
+    20%  {left: 350px;    top: 670px;  width: 50px; height: 50px;}
+    25%  {left: 490px;    top: 610px;   width: 50px; height: 50px;}
+    30%  {left: 600px;    top: 510px;   width: 50px; height: 50px;}
+    35%  {left: 710px;    top: 410px;   width: 50px; height: 50px;}
+    40%  {left: 800px;    top: 370px;   width: 50px; height: 50px;}
+    45%  {left: 940px;    top: 270px;   width: 50px; height: 50px;}
+    50%  {left: 1020px;   top: 320px;   width: 50px; height: 50px;}
+    51%  {left: 1080px;   top: 350px;   width: 50px; height: 50px;}
+    52%  {left: 1080px;   top: 350px;   width: 50px; height: 50px;}
+    53%  {left: 1080px;   top: 350px;   width: 50px; height: 50px;}
+    54%  {left: 1080px;   top: 350px;   width: 50px; height: 50px;}
+    55%  {left: 1080px;   top: 350px;   width: 50px; height: 50px;transform: scaleX(1);}
+    56%  {left: 1080px;   top: 350px;   width: 50px; height: 50px; transform: scaleX(-1);}
+    57%  {left: 1080px;   top: 350px;   width: 50px; height: 50px; transform: scaleX(-1);}
+    60%  {left: 1020px;   top: 320px;   width: 50px; height: 50px; transform: scaleX(-1);}
+    65%  {left: 940px;    top: 270px;   width: 50px; height: 50px; transform: scaleX(-1);}
+    70%  {left: 800px;    top: 370px;   width: 50px; height: 50px; transform: scaleX(-1);}
+    75%  {left: 710px;    top: 540px;   width: 50px; height: 50px; transform: scaleX(-1);}
+    80%  {left: 600px;    top: 510px;   width: 50px; height: 50px; transform: scaleX(-1);}
+    85%  {left: 490px;    top: 610px;   width: 50px; height: 50px; transform: scaleX(-1);}
+    90%  {left: 100px;    top: 570px;   width: 50px; height: 50px; transform: scaleX(-1);}
+    93%  {left: 40px;     top: 600px;   width: 50px; height: 50px; transform: scaleX(-1);}
+    95%   {left: 0px;      top: 620px;   width: 50px; height: 50px; transform: scaleX(-1);}
+    98%   {left: -20px;    top: 640px;   width: 50px; height: 50px; transform: scaleX(-1);}
+    100%   {left: -40px;    top: 670px;  width: 50px; height: 50px; transform: scale3d(1) scaleX(-1);}  
+
+
+}
+#bird{
+    right: -50px;   top: 450px;
+    width: 100px; height: 100px;
+    position: absolute;
+    animation-name:bird;
+    animation: bird 10s infinite 0s none ease-in;
+} 
+@-webkit-keyframes bird {
+    0%   {right: 0px;     top: 110px; width: 100px; height: 100px;     transform: scaleX(-1); }
+    5%   {right: 30px;    top: 110px; width: 100px; height: 100px;     transform: rotateZ(-20deg) scaleX(-1); }
+    10%  {right: 100px;    top: 110px; width: 100px; height: 100px;     transform: rotateZ(-20deg) scaleX(-1); }
+    15%  {right: 160px;   top: 110px; width: 100px; height: 100px;     transform: rotateZ(-20deg) scaleX(-1); }
+    20%  {right: 260px;   top: 110px; width: 100px; height: 100px;     transform: scaleX(-1); }
+    25%  {right: 360px;   top: 110px; width: 100px; height: 100px;     transform: scaleX(-1); }
+    30%  {right: 470px;   top: 110px; width: 100px; height: 100px;     transform: scaleX(-1); }
+    35%  {right: 580px;   top: 110px; width: 100px; height: 100px;     transform: scaleX(-1); }
+    40%  {right: 710px;   top: 110px; width: 100px; height: 100px;     transform: scaleX(-1); }
+    45%  {right: 900px;   top: 110px; width: 100px; height: 100px;     transform: scaleX(-1); }
+    50%  {right: 910px;   top: 110px; width: 100px; height: 100px;     transform: scaleX(1);}
+    55%  {right: 900px;   top: 110px; width: 100px; height: 100px;    }
+    60%  {right: 710px;   top: 110px; width: 100px; height: 100px;    }
+    65%  {right: 580px;   top: 110px; width: 100px; height: 100px;    }
+    70%  {right: 470px;   top: 110px; width: 100px; height: 100px;    }
+    75%  {right: 360px;   top: 110px; width: 100px; height: 100px;    }
+    80%  {right: 260px;   top: 110px; width: 100px; height: 100px;    }
+    85%  {right: 160px;   top: 110px; width: 100px; height: 100px;    transform: rotateZ(20deg);}
+    90%  {right: 100px;    top: 110px; width: 100px; height: 100px;    transform: rotateZ(20deg);}
+    95%  {right: 30px;    top: 110px; width: 100px; height: 100px;    transform: rotateZ(20deg);} 
+    97%  {right: 0px;     top: 110px; width: 100px; height: 100px;    } 
+    98%  {right: -5px;   top: 110px; width: 100px; height: 100px;    } 
+    100% {right: -15px;   top: 110px; width: 100px; height: 100px;    } 
+}
+#bird2{
+    right: -50px;   top: 450px;
+    width: 100px; height: 100px;
+    position: absolute;
+    animation-name:bird2;
+    animation: bird2 7s infinite 0s none ease-in;
+
+} 
+@-webkit-keyframes bird2 {
+    0%   {left: 0px;     top: 60px; width: 100px; height: 100px;      }
+    5%   {left: 50px;    top: 59px; width: 100px; height: 100px;      }
+    10%  {left: 130px;   top: 58px; width: 100px; height: 100px;     }
+    15%  {left: 190px;   top: 57px; width: 100px; height: 100px;     transform: rotateZ(20deg); }
+    20%  {left: 290px;   top: 56px; width: 100px; height: 100px;    transform: rotateZ(20deg);}
+    25%  {left: 390px;   top: 55px; width: 100px; height: 100px;    transform: rotateZ(20deg);}
+    30%  {left: 500px;   top: 54px; width: 100px; height: 100px;      }
+    35%  {left: 610px;   top: 55px; width: 100px; height: 100px;      }
+    40%  {left: 740px;   top: 56px; width: 100px; height: 100px;      }
+    45%  {left: 930px;   top: 58px; width: 100px; height: 100px;      }
+    50%  {left: 940px;   top: 60px; width: 100px; height: 100px;     }
+    55%  {left: 930px;   top: 59px; width: 100px; height: 100px;    transform: scaleX(1);}
+    60%  {left: 740px;   top: 57px; width: 100px; height: 100px;    transform: scaleX(-1); }
+    65%  {left: 610px;   top: 56px; width: 100px; height: 100px;    transform: scaleX(-1); }
+    70%  {left: 500px;   top: 55px; width: 100px; height: 100px;    transform: scaleX(-1); }
+    75%  {left: 390px;   top: 56px; width: 100px; height: 100px;    transform: scaleX(-1); }
+    80%  {left: 290px;   top: 57px; width: 100px; height: 100px;    transform: scaleX(-1); }
+    85%  {left: 190px;   top: 58px; width: 100px; height: 100px;    transform: scaleX(-1); }
+    90%  {left: 130px;   top: 59px; width: 100px; height: 100px;    transform: scaleX(-1); }
+    95%  {left: 60px;    top: 60px; width: 100px; height: 100px;    transform: rotateZ(-20deg) scaleX(-1);} 
+    97%  {left: 30px;    top: 62px; width: 100px; height: 100px;     transform: rotateZ(-20deg) scaleX(-1);} 
+    98%  {left: -5px;    top: 60px; width: 100px; height: 100px;     transform: rotateZ(-20deg) scaleX(-1);} 
+    100% {left: -15px;   top: 60px; width: 100px; height: 100px;    transform: scaleX(-1);} 
+}
